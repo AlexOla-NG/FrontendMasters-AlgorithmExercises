@@ -1,2 +1,2 @@
-# FrontendMasters-AlgorithmExercises
+# algorithms-exercises
 Created with CodeSandbox

@@ -16,7 +16,7 @@
     "xxhashjs": "0.2.2"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0"
+    "@babel/core": "^7.2.0"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"

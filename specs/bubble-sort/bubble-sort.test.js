@@ -13,14 +13,19 @@
 function bubbleSort(nums) {
   // code goes here
   for (let i = 0; i < nums.length; i++) {
-    if (i[i] > i[i + 1]) {
+    for (let j = 1; j < nums.length; j++) {
+      if (i[i] > j[i]) {
+        let biggrNum = i[i];
+        i[i] = j[i];
+        j[i] = biggrNum;
+      }
     }
   }
 }
 
 // unit tests
 // do not modify the below code
-test.skip("bubble sort", function () {
+test("bubble sort", function () {
   const nums = [10, 5, 3, 8, 2, 6, 4, 7, 9, 1];
   const sortedNums = bubbleSort(nums);
   expect(sortedNums).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
